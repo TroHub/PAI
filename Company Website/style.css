@@ -1,0 +1,383 @@
+body
+{
+	background-color: #303030;
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0 !important;
+}
+
+.header
+{
+	width: 100%;
+	padding: 20px 0;					/* pierwsza wartosc padding w pionie druga padding w poziomie*/
+}
+
+.logorocket								/* nalezy do header*/
+{
+	float: left;
+	color: white;
+	font-size: 40px;
+}
+
+.logo										/* nalezy do header*/
+{
+	float: left;
+	width: 450px;
+	color: white;
+	/*margin-top: 20px;*/
+	font-size:  40px;				
+	letter-spacing: 1px;				/*odstep miedzy literami;*/
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.nav
+{
+	width: 100%;
+	padding: 10px  0;
+	clear: both;
+	background-color: #303030;
+	text-align: center;
+	/*height: 40px;*/
+	color: white;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;						/*interlinia w pionie */
+	display: inline-block;					/*ustawienie menu w blokach, umożliwia korzystanie z text align */
+}
+
+ol > li											/*stylizacja elementu li którego rodzicem jest ol*/
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+}
+
+li:hover
+{
+	background-color: black;
+	cursor: pointer;
+	opacity: 0.6;			/*przejrzystość po najechaniu na wartosc*/
+}
+
+
+#topbar
+{
+	background-color: #335284;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	height: 170 px;
+}
+
+#topbarR
+{
+	float:left;
+	padding: 20px 20px 20px 20px;
+	width: 138px;
+	text-align: center;
+	border-right: 2px;
+}
+
+#topbarL
+{
+	float:left;
+	padding: 20px 100px 20px 20px;
+	width: 1000px;
+	font-size: 16px;
+	text-align: justify;
+	border-right: 2px dotted;
+}
+
+#maincontent		
+{
+	float:left;
+}
+
+.contentAbout
+{
+	padding: 80px 40px 80px 40px;
+	background-color: #dedede;
+	text-align: justify;
+}
+
+.caboutR
+{
+	float:left;
+	width: 138px;
+	text-align: center;
+}
+ 
+.caboutL
+{
+	float:left;
+	width: 700px;
+	font-size: 16px;
+	text-align: justify;
+	padding: 40px;
+}
+
+.contentSkills
+{
+	padding: 80px 40px 80px 40px;
+	background-color: #efefef;
+	text-align: justify;
+}
+
+.contentPortfolio
+{
+	padding: 80px 40px 80px 40px;
+	background-color: #dedede;
+	text-align: justify;
+	
+}
+
+.contentTravel 
+{
+	padding: 80px 40px 80px 40px;
+	background-color: #efefef;
+	text-align: justify;
+}
+
+.pictures1
+{
+	float:left;
+	height: 400px;
+	width:	300px;
+	margin-left: 10px;
+}
+.pictures1:hover
+{
+	opacity: 0.6;
+}
+
+.pictures2
+{
+	float:left;
+	height: 400px;
+	width:	300px;
+	margin-left: 10px;
+}
+.pictures2:hover
+{
+	opacity: 0.6;
+}
+
+.pictures3
+{
+	float:left;
+	height: 400px;
+	width:	300px;
+	margin-left: 10px;
+}
+.pictures3:hover
+{
+	opacity: 0.6;
+}
+
+.pictures4
+{
+	float:left;
+	height: 400px;
+	width:	300px;
+	margin-left: 10px;
+}
+.pictures4:hover
+{
+	opacity: 0.6;
+}
+
+.descriptionimage
+{
+	font-size: 15px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.contentContact
+{
+	padding: 80px 40px 80px 40px;
+	background-color: #dedede;
+	text-align: justify;
+}
+
+.contactR
+{
+	float:left;
+	padding: 0px 30px;
+}
+ 
+.contactL
+{
+	float:left;
+	width: 700px;
+	font-size: 16px;
+	text-align: justify;
+	padding: 40px;
+}
+
+.button
+{
+	padding:10px;
+	background-color: #303030;
+	color: #ffffff;
+	text-align: center;
+	width:100px;
+	cursor: pointer;
+}
+
+#socials	
+{
+	
+	width: 100%;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	
+}
+
+.fb
+{
+	float:left;
+	height: 100px;
+	width:337px;
+	background-color: #303030;
+	
+	/*border-bottom: 2px dotted #444444;  zastosowanie tak zwanej granicy kropek o rozmiarze 2px */
+}
+
+.fb:hover
+{
+	
+	background-color: #4668b3;
+}
+
+.yt
+{
+	float:left;
+	height: 100px;
+	width:337px;
+	background-color: #303030;
+
+	/*border-bottom: 2px dotted #444444;  zastosowanie tak zwanej granicy kropek o rozmiarze 2px */
+}
+
+.yt:hover
+{
+	background-color: #d94348;
+}
+
+.tw
+{
+	float:left;
+	height: 100px;
+	width:337px;
+	background-color: #303030;
+
+	/*border-bottom: 2px dotted #444444;  zastosowanie tak zwanej granicy kropek o rozmiarze 2px */
+}
+
+.tw:hover
+{
+	background-color: #3095d3;
+}
+
+.gplus
+{
+	float:left;
+	height: 100px;
+	width:337px;
+	background-color: #303030;
+	
+
+	/*border-bottom: 2px dotted #444444;  zastosowanie tak zwanej granicy kropek o rozmiarze 2px */
+}
+
+.gplus:hover
+{
+	background-color: #d95333;
+}
+
+#footer		
+{
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 18px;
+	margin-top: 10px;
+	background-color: #303030;
+}
+
+.bigtitle 
+{
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+.tilelinkhtml5
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100%;
+}
+
+/*login.php */
+
+.logowanie
+{
+	text-align: center;
+	color: white;
+}
+
+
+.tilelinkhtml
+{
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+
+.error
+{
+	color: red;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+/*welcome.php */
+.welcome
+{
+	color: white;
+	font-size: 30px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#captcha
+{
+	text-align: center;
+}
+
+.g-recaptcha
+{
+	display: inline-block;
+}
+

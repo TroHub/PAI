@@ -1,0 +1,9 @@
+Strona internetowa WWW dla Firmy z okreœlonymi wymaganiami:
+- napisana w HTML z wykorzystaniem arkusza stylów CSS,
+- ob³suga JavaScrpit przy odnoœnikach do wybranych elementów strony 
+  oraz "wisz¹ce" menu do którego mamy ci¹g³y dostêp,
+- umo¿liwia logowanie siê do bazy danych na wybrane konto u¿ytkownika z wykorzystaniem PHP,
+- umo¿liwia tworzenie nowego konta u¿ytkownika oraz dodawanie go do bazy z wykorzystaniem PHP,
+- Logowanie oraz rejestracja u¿ytkownika zosta³y odpowiednio zabezpieczone aby uniemo¿liwia³y 
+  w³amanie na konto.
+
